@@ -1,3 +1,4 @@
+#paste inside code part of lamda
 import boto3
 def lambda_handler(event, context):
     file_name = event['Records'][0]['s3']['object']['key'];
